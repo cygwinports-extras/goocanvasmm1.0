@@ -1,0 +1,70 @@
+goocanvasmm
+------------------------------------------
+C++ bindings to the goocanvas library
+
+Runtime requirements:
+  cygwin-1.7.0-62
+  libatkmm1.6_1-2.18.2-1
+  libcairomm1.0_1-1.8.4-1
+  libgcc1-4.3.4-1
+  libglib2.0_0-2.22.2-1
+  libglibmm2.4_1-2.22.1-1
+  libgtkmm2.4_1-2.18.2-1
+  libgoocanvas3-0.15-1
+  libsigc2.0_0-2.2.4.2-1
+  libstdc++6-4.3.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-10
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  doxygen-1.5.5-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  gcc4-g++-4.3.4-1
+  libtool-2.2.7a-14
+  make-3.81-2
+  mm-common-0.8-1
+  pkg-config-0.23b-10
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.gtkmm.org/
+
+Canonical download:
+  http://ftp.gnome.org/pub/GNOME/sources/goocanvasmm/
+
+-------------------------------------------
+
+Build instructions:
+  unpack goocanvasmm-0.15.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./goocanvasmm-0.15.1-X.cygport all
+
+This will create:
+  /usr/src/goocanvasmm-0.15.1-X-src.tar.bz2
+  /usr/src/libgoocanvasmm1.0_5-0.15.1-X.tar.bz2
+  /usr/src/libgoocanvasmm1.0-devel-0.15.1-X.tar.bz2
+  /usr/src/libgoocanvasmm1.0-doc-0.15.1-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.15.1-1 -----
+Version bump.
+Created separate -doc package for API documentation.
+
+----- version 0.15.0-1 -----
+Version bump for goocanvas-0.15.
+
+----- version 0.14.0-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
